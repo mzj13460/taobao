@@ -1,0 +1,131 @@
+*{margin:0;padding:0}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+.main{width: 1520px;margin: 0 auto;position: relative;}
+body{cursor: pointer;width: 100%;height:100%;overflow-x: hidden;}
+ @font-face {font-family:iconfont-head;src:url(../fonts/iconfont.woff); }
+  
+  
+/*header*/
+#header{height:31px;border-bottom: 1px solid red;background: #e3e4e5}
+#header .main{background: url("../img-xiangqingye/header.jpg");height: 31px;}
+#nav{height: 250px;}
+#nav .log{position: absolute;top: 22px;left: 0}
+#nav .fenlei{position: absolute;left: 178px;top: 20px;width: 150px;height: 58px;border: 1px solid deeppink;font-size: 30px;text-align: center;line-height: 58px;background: cyan;color: red;border-radius: 50%; font-weight: 800;}
+#nav .fenlei:hover{background: blue;color: deeppink;}
+input{color: red!important;font-weight: 999;}
+
+/*search*/
+#nav .search{width: 521px;height: 32px;border: 2px solid red;position: absolute;left: 402px;top: 25px;border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;}
+#nav .search .tianmao{width: 52px;height: 36px;background:red;color: blue;position: absolute;top: -2px;right: -52px;font-size: 14px;
+line-height: 36px;text-align: center;font-weight: 800;}
+#nav .search .bendian{width: 52px;height: 36px;background:darkred;font-weight: 800;color: orangered;position: absolute;top: -2px;right: -104px;font-size: 15px;line-height: 36px;text-align: center;border-top-right-radius: 10px;border-bottom-r ight-radius: 10px;}
+#nav .search input{height: 24px;line-height: 24px;font-size: 14px;width: 254px;border: none;outline: none;margin-top: 4px;
+margin-left: 3px;}
+#nav .gouwu{position: absolute;top: 2px;right: 2px;border-bottom: 1px solid #dfdfdf}
+#nav .souxia{width: 518px;height: 11px;line-height: 11px;font-size: 11px;position: absolute;left: 402px;top: 70px;}
+#nav .souxia a{color: green;}
+#nav .souxia a:hover{color: orange}
+#nav .souxia .iPhone{color: blue;font-weight: 999;}
+
+/*--JSOP-跨域请求--*/
+#hongbos918{position:absolute;top: 58px;left: 400px;z-index:999;background: deeppink;border:1px solid #969896;
+width: 526px;display:none;}
+.jingma918{height: 25px;}
+.jingma918 a{display:block;color:blue;padding-left:8px;height:25px;font-size:16px;line-height:25px;
+font-weight: 550;}
+.jingma918 a:hover{background:#EEEEEE;color:red;}
+
+
+
+
+
+
+/*dianpu*/
+#nav .shangjia{width: 690px;height: 88px;position: absolute;top: 148px;left: 0px;}
+
+/*daohang*/
+#daohang{height: 50px;background: #f2f2f2;}
+#daohang .dao-main{background: url("../img-xiangqingye/nav666.jpg");height: 50px;}
+
+/*xiangqing*/
+#xiangxi{height: 634px;width: 350px;margin: 50px 250px;}
+#xiangxi .box3{height:58px;width: 350px;display: flex;justify-content: space-around; margin-left: 40px;}
+#xiangxi .box3 li{border: 2px solid pink;}
+#xiangxi .box1{width: 450px;height: 450px;border: 2px solid #0000FF;}
+#xiangxi .box2{width:600px;height: 560px;position: absolute;display: none;top:-50px;left: 454px;overflow: hidden;z-index: 10;
+border: 2px solid #00FFFF;background: red;}
+#xiangxi .box2 img{width: 850px;height: 850px;position: absolute;top: 0;left: 0;background: red;}
+#xiangxi .box1 i{width: 230px;height: 230px;background: deeppink;opacity: 0.3;display: block;position: absolute;left: 0;top: 0;
+display: none;pointer-events: none;}
+#xiangxi .box1:hover i{display: block;}
+#xiangxi .zhong{width: 598px;height: 507px;position: absolute;top: 0px;left: 460px;padding-top: 6px;
+background: url("../img-xiangqingye/xiangqing888.jpg");cursor: pointer;}
+	
+
+
+
+/*helps*/
+#helps{width:100%;height: 213px; background: #f4f4f4;padding-top: 10px;}
+/*.helps-main{width: 1190px;height: 213px;background:palegreen;margin: 0 auto;}*/
+.layer {   width: 1190px;    margin: 0 auto;}
+
+div.tbh-helper {   background-color: transparent;}
+ .have-fun, .tbh-discover-goods, .tbh-helper, .tbh-live {position: relative;}
+.J_Module {  min-height: 0;  background-color: #FFF;}
+.helper {  padding-top: 40px;  height: 140px;}
+.helper .mod {  float: left;  margin-right: -1px;  width: 25%;}
+.helper .mod .mod-wrap {  padding: 0 25px;}
+.helper .mod .mod-wrap h4 {  margin-bottom: 5px;  height: 50px;}
+.helper .mod .mod-wrap h4 .tb-ifont {float: left;  font-size: 32px;  color: #999;}
+.helper .mod .mod-wrap h4 span {   float: left; margin-left: 12px; padding-top: 12px;   font-size: 16px;}
+.helper .mod .mod-wrap ul>li{display: inline-block; margin-right: 10px;line-height: 21px;}
+.helper .mod .mod-wrap li a {  color: #999;}
+.helper .mod .mod-wrap li a:hover { color: #F40;}
+.tb-ifont {   font-family:iconfont-head!important; font-size: 14px; font-style: normal;display: inline-block;text-decoration: none; 
+}
+
+
+/*footer*/
+#footer{width:100%;height: 274px;}
+/*.footer-main{width: 1190px;height: 274px;background:paleturquoise;margin: 0 auto;}*/
+.tb-footer-with-logo {min-height: 170px;}
+.tb-footer { width: 100% !important; max-width: 100% !important;  min-height: 125px;  padding-bottom: 9px;  
+background-color: #fff;  font-size: 12px;}
+.tb-footer .tb-footer-hd { padding-top: 7px; border-top: 1px solid #ddd;}
+.tb-footer .tb-footer-hd, .tb-footer .tb-footer-bd, .tb-footer .tb-footer-ft { width: 1190px;  max-width: 100%;  
+margin-left: auto;   margin-right: auto;}
+.tb-footer .tb-footer-hd p {    margin-bottom: 8px;    line-height: 27px;    border-bottom: 1px solid #ddd;}
+.tb-footer p {padding-bottom: 8px;    overflow: hidden;}
+.tb-footer span {margin: 0 4px;}
+.tb-footer em, .tb-footer span {   color: #9c9c9c;}
+.tb-footer b {margin: 0 3px;    font-weight: 400;    color: #ddd;}
+.tb-footer .tb-footer-hd a, .tb-footer .tb-footer-bd a {    white-space: nowrap;    color: #6c6c6c;    text-decoration: none;}
+.tb-footer .tb-footer-hd a:hover, .tb-footer .tb-footer-bd a:hover {    color: #f40;    text-decoration: none;}
+element.style {background-position: -861px 0px;    width: 20px;    height: 20px;}
+.tb-footer .tb-footer-mod {background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+background-image: -webkit-image-set(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg 1x, 
+https://img.alicdn.com/tfs/TB1Az9_QXXXXXc_apXXXXXXXXXX-2265-70.jpg 2x);}
+.tb-footer .tb-footer-mod {height: 40px;    display: inline-block;    background-repeat: no-repeat;    vertical-align: middle;}
+.tb-footer .tb-footer-ft a {margin-right: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

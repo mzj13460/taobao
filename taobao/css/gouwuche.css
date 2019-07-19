@@ -1,0 +1,84 @@
+*{margin:0;padding:0}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+body{cursor: pointer;}
+  
+ @font-face {font-family:iconfont-head;src:url(../fonts/iconfont.woff); }
+            
+.header{width: 100%;height: 156px;background: url(../img-gouwuche/gouwuche9183.jpg) no-repeat;cursor: pointer;}        
+#hetian52 .quanbu{height: 52px;line-height: 52px;font-size: 20px;color: red;font-weight: bolder;display: inline-block;border-bottom: 1px solid orangered;background: pink;border-radius: 15px;}
+#hetian52 .main{width: 1422px;margin: 0 auto;position: relative;background: red;}
+#hetian52 .quanbu span{height: 52px;font-size: 20px;line-height: 52px;display: inline-block;margin-left: 8px;}
+#hetian52 .shangping{height: 40px;line-height: 40px;border: 1px solid blue;margin-top: -1px;background: #f3f3f3;position: relative;display: flex;}
+#hetian52 .shangping span{font-size: 11px;height: 37px;display: block;color: blue;}
+#hetian52 .shangping .sp1{width: 100px;padding-left: 32px;position: relative;}
+#hetian52 .shangping .sp1 i{width: 22px;height: 22px;position: absolute;top: 8px;left: 6px;border: 1px solid fuchsia;display: block;color: red;}
+#hetian52 .shangping .sp2{width: 474px;}
+#hetian52 .shangping .sp3{width: 92px;}
+#hetian52 .shangping .sp4{width: 128px;}
+#hetian52 .shangping .sp5{width: 64px;}
+#hetian52 .shangpin{margin-top: 40px;}
+#hetian52 .shangpin li{height: 104px;border: 2px solid red;background: fuchsia;padding-top: 15px;padding-left: 40px;position: relative;
+margin-bottom: 10px;}
+#hetian52 .shangpin li .i1{width: 11px;height: 11px;display: block;border: 1px solid gold;position: absolute;top: 20px;left: 10px;
+color: red ;font-weight: 999;}
+#hetian52 .shangpin .miaoshu{width: 210px;height: 34px;position: absolute;top: 15px;left: 132px;font-size: 18px;line-height: 17px;}
+#hetian52 .shangpin .se{width: 120px;height: 15px;font-size: 15px;line-height: 15px;position: absolute;top: 15px;left: 362px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#hetian52 .shangpin .price1{width: 60px;height: 9px;line-height: 9px;color:blue;position: absolute;top: 15px;left: 600px;}
+#hetian52 .shangpin .price2{width: 60px;height: 9px;line-height: 9px;color:blue;position: absolute;top: 15px;left: 820px;}
+#hetian52 .shangpin .popo{display: flex;border: 1px solid orange;width: 78px;height: 20px;position: absolute;top: 14px;left: 680px;}	
+#hetian52 .shangpin .popo i{width: 16px;height: 20px;line-height: 20px;text-align: center;display: block;}
+#hetian52 .shangpin .popo input{width: 44px;height: 16px;text-align: center;}
+#hetian52 .shangpin .shan{height: 11px;line-height: 11px;font-size: 11px;position: absolute;top: 15px;left: 900px;}	
+#hetian52 .shangping .p1{height: 10px;width: 100px;font-size: 18px;line-height: 10px;position: absolute;top: 17px;left: 650px; background: transparent;}
+#hetian52 .shangping .p2{position: absolute;top: 0px;left: 800px;}
+#yixuan{color: red;font-weight: 888;}
+#zongjia{color: red;font-weight: 888;}
+
+
+/*helps*/
+#helps{width:100%;height: 213px; background: #f4f4f4;padding-top: 10px;}
+/*.helps-main{width: 1190px;height: 213px;background:palegreen;margin: 0 auto;}*/
+.layer {   width: 1190px;    margin: 0 auto;}
+
+div.tbh-helper {   background-color: transparent;}
+ .have-fun, .tbh-discover-goods, .tbh-helper, .tbh-live {position: relative;}
+.J_Module {  min-height: 0;  background-color: #FFF;}
+.helper {  padding-top: 40px;  height: 140px;}
+.helper .mod {  float: left;  margin-right: -1px;  width: 25%;}
+.helper .mod .mod-wrap {  padding: 0 25px;}
+.helper .mod .mod-wrap h4 {  margin-bottom: 5px;  height: 50px;}
+.helper .mod .mod-wrap h4 .tb-ifont {float: left;  font-size: 32px;  color: #999;}
+.helper .mod .mod-wrap h4 span {   float: left; margin-left: 12px; padding-top: 12px;   font-size: 16px;}
+.helper .mod .mod-wrap ul>li{display: inline-block; margin-right: 10px;line-height: 21px;}
+.helper .mod .mod-wrap li a {  color: #999;}
+.helper .mod .mod-wrap li a:hover { color: #F40;}
+.tb-ifont{font-family:iconfont-head;}
+
+
+
+/*footer*/
+#footer{width:100%;height: 274px;}
+/*.footer-main{width: 1190px;height: 274px;background:paleturquoise;margin: 0 auto;}*/
+.tb-footer-with-logo {min-height: 170px;}
+.tb-footer { width: 100% !important; max-width: 100% !important;  min-height: 125px;  padding-bottom: 9px;  
+background-color: #fff;  font-size: 12px;}
+.tb-footer .tb-footer-hd { padding-top: 7px; border-top: 1px solid #ddd;}
+.tb-footer .tb-footer-hd, .tb-footer .tb-footer-bd, .tb-footer .tb-footer-ft { width: 1190px;  max-width: 100%;  
+margin-left: auto;   margin-right: auto;}
+.tb-footer .tb-footer-hd p {    margin-bottom: 8px;    line-height: 27px;    border-bottom: 1px solid #ddd;}
+.tb-footer p {padding-bottom: 8px;    overflow: hidden;}
+.tb-footer span {margin: 0 4px;}
+.tb-footer em, .tb-footer span {   color: #9c9c9c;}
+.tb-footer b {margin: 0 3px;    font-weight: 400;    color: #ddd;}
+.tb-footer .tb-footer-hd a, .tb-footer .tb-footer-bd a {    white-space: nowrap;    color: #6c6c6c;    text-decoration: none;}
+.tb-footer .tb-footer-hd a:hover, .tb-footer .tb-footer-bd a:hover {    color: #f40;    text-decoration: none;}
+element.style {background-position: -861px 0px;    width: 20px;    height: 20px;}
+.tb-footer .tb-footer-mod {background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+background-image: -webkit-image-set(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg 1x, 
+https://img.alicdn.com/tfs/TB1Az9_QXXXXXc_apXXXXXXXXXX-2265-70.jpg 2x);}
+.tb-footer .tb-footer-mod {height: 40px;    display: inline-block;    background-repeat: no-repeat;    vertical-align: middle;}
+.tb-footer .tb-footer-ft a {margin-right: 15px;}
